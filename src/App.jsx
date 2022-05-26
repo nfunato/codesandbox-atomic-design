@@ -1,4 +1,5 @@
-import { Router } from "react-router-dom";
+import { Router } from "./router/Router";
+import "./styles.css";
 
 const user = {
   name: "わしじゃ",
@@ -12,9 +13,5 @@ const user = {
 };
 
 export default function App() {
-  return (
-    <div>
-      <p>ほげ</p>
-    </div>
-  );
+  return <Router />;
 }
